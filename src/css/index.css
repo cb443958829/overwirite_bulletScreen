@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+.container .bulletScreen {
+  width: 100%;
+  position: relative;
+}
+.container .bulletScreen #canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.container .bulletScreen #video {
+  width: 100%;
+  height: 100%;
+}
+.container .commment {
+  margin-top: 10px;
+  border: 1px solid rgba(92, 74, 78, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.container .commment .div #inp {
+  width: 216px;
+  border: 1px solid #ff870a;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.container .commment .div .time {
+  color: red;
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+}
+.container .commment .div .button {
+  outline: none;
+  border-radius: 5px;
+  background-color: #d8298f;
+  border: 1px solid #c01e8f;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.container .commment .bottom {
+  margin-top: 10px;
+}
+.container .commment .bottom .count {
+  color: red;
+  text-align: center;
+}
+.container input,
+.container button {
+  vertical-align: middle;
+}

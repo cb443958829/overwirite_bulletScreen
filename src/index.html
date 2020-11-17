@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="bulletScreen">
+        <canvas id="canvas">您的浏览器不支持canvas,请升级或更换浏览器,谢谢</canvas>
+        <video id="video" src="./src/asserts/video/liu.mp4" controls></video>
+      </div>
+      <div class="commment">
+        <div class="div">
+          弹幕: <input type="text" id="inp" /> 可发弹幕时间:  <span class="time">5</span>s
+          <button class="button">发送弹幕</button>
+          <input type="color" class="color" value="#ff0000"/>
+        </div>
+        <div class="bottom">弹幕数: <span class="count" ></span></div>
+      </div>
+    </div>
+  </body>
+</html>

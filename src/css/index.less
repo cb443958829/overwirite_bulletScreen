@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  .bulletScreen {
+    width: 100%;
+    position: relative;
+    #canvas {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    #video {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .commment {
+      margin-top: 10px;
+      border: 1px solid rgba(92, 74, 78, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      .div {
+        #inp {
+          width: 216px;
+          border: 1px solid rgb(255, 135, 10);
+          outline: none;
+          border-radius: 5px;
+          margin-left: 5px;
+          margin-right: 10px;
+        }
+        .time {
+          color: red;
+          display: inline-block;
+          text-align: center;
+          width: 25px;
+        }
+        .button {
+          outline: none;
+          border-radius: 5px;
+          background-color: rgb(216, 41, 143);
+          border: 1px solid rgb(192, 30, 143);
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+        
+      }
+      .bottom{
+        margin-top: 10px;
+        .count {
+          color: red;
+          text-align: center;
+        }
+      }
+  }
+  input, button {
+    vertical-align: middle;
+  }
+}
